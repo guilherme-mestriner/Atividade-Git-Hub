@@ -1,0 +1,20 @@
+1 - Inserindo um projeto novo
+    1.1 - Via VSCode; 
+    1.1.1 - Configurar o usuário e email do git: 
+        git config --global user.name "seu nome"
+        git config --global user.email "seu email"
+
+    - Na ana Código Fonte VSCode, existe o botão "publicar
+    no Github", que abre uma janela para inserir o nome 
+    do repetório e a descrição do projeto.
+2 - Via terminal: 
+    1.2.1 - Criar um repositório no github;
+    1.2.2 - Clonar o repositório: 
+        git clone 
+    1.2.3 - Criar um arquivo README.md;
+    1.2.4 - Adicionar o arquivo ao git;
+        git add README.md 
+    1.2.5 - fazer o commit do arquivo;
+        git commit  -m "Primeiro commit"
+    1.2.6 - Enviar o arquivo para o github: 
+        GIT PUSH -u origin master
